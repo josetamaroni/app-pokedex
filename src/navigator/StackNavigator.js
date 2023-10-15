@@ -19,7 +19,7 @@ const StackNavigator = () => {
             }}
         >
             <Stack.Screen name="Home" component={HomeScreen}/>
-            <Stack.Screen name="Pokemon" component={PokemonScreen}/>
+            <Stack.Screen name="PokemonScreen" component={PokemonScreen}/>
         </Stack.Navigator>
     )
 }
